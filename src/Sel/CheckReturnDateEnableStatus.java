@@ -29,7 +29,7 @@ public class CheckReturnDateEnableStatus {
 		{
 
 
-		System.out.println("its enabled");
+		
 
 		Assert.assertTrue(true);
 
