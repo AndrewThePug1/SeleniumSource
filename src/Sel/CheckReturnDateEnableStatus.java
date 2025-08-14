@@ -18,8 +18,9 @@ public class CheckReturnDateEnableStatus {
 		driver.get("https://rahulshettyacademy.com/dropdownsPractise/");
 		
 
-		System.out.println(driver.findElement(By.id("Div1")).getAttribute("style"));
+		
 
+		driver.findElement(By.id("ctl00_mainContent_rbtnl_Trip_1")).click();
 		driver.findElement(By.id("ctl00_mainContent_rbtnl_Trip_1")).click();
 
 		System.out.println(driver.findElement(By.id("Div1")).getAttribute("style"));
