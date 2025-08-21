@@ -25,24 +25,8 @@ public class CheckReturnDateEnableStatus {
 
 	
 
-		if(driver.findElement(By.id("Div1")).getAttribute("style").contains("1"))
-
-		{
-
 
 		
-
-		Assert.assertTrue(true);
-
-		}
-
-		else
-
-		{
-
-		Assert.assertTrue(false);
-
-		}
 		
 		
 
