@@ -16,8 +16,8 @@ public class CheckReturnDateEnableStatus {
 		WebDriver driver =new ChromeDriver();
 		
 		driver.get("https://rahulshettyacademy.com/dropdownsPractise/");
-		
-
+		driver.get("https://rahulshettyacademy.com/dropdownsPractise/");
+		driver.get("https://rahulshettyacademy.com/dropdownsPractise/");
 		
 
 		driver.findElement(By.id("ctl00_mainContent_rbtnl_Trip_1")).click();
